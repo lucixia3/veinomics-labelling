@@ -1,0 +1,54 @@
+# Datos y salidas (no versionar)
+*.nii
+*.nii.gz
+*.dcm
+CTA_ISLES2024_TUM/
+CTA_ISLES_output/
+CTA_ISLES_output_v2/
+FINAL_provastpau/
+FINALisles/
+auto_pipeline/
+auto_topbrain/
+output_senos/
+provastpau_output/
+temp_work/
+tmp_env_bootstrap/
+nnUNet_raw/
+nnUNet_preprocessed/
+nnUNet_results_complete/
+dynavessel*/
+ATLAS_Artery/
+PhD-LabVeins/
+robust-vessel-segmentation/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.uv_cache/
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> aee6980 (Restructure pipeline into veinomics package + VCM detection + updated README)
+# Old pipeline versions
+cta_segment_*.py
+segment_cta*.py
+label_veins.py
+merge_nnunet_results.py
+
+<<<<<<< HEAD
+=======
+>>>>>>> 616357c (Initial commit: veinomics-label pipeline)
+=======
+>>>>>>> aee6980 (Restructure pipeline into veinomics package + VCM detection + updated README)
+# Misc
+*.ini
+*.log
+.DS_Store

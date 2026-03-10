@@ -1,0 +1,16 @@
+antspyx
+nibabel
+numpy
+scipy
+scikit-image
+<<<<<<< HEAD
+<<<<<<< HEAD
+plotly
+=======
+
+# Opcional: incluir solo si vas a lanzar nnU-Net desde Python y no desde tu entorno externo de nnUNet.
+# nnunetv2
+>>>>>>> 616357c (Initial commit: veinomics-label pipeline)
+=======
+plotly
+>>>>>>> aee6980 (Restructure pipeline into veinomics package + VCM detection + updated README)
