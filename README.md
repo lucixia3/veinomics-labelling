@@ -120,23 +120,41 @@ Intermediate nnU-Net predictions are stored under `<output>/temp_work/`.
 
 ## Citation
 
-If you use veinomics-label in your research, please cite:
+If you use veinomics-label in your research, please cite the following works:
 
-```
+```bibtex
 @article{veinomics2025,
   title   = {veinomics-label: Automatic Lateralized Segmentation of the Cerebral Venous System from CTA},
   author  = {},
   journal = {},
   year    = {2025},
 }
-```
 
-*(Citation will be updated upon publication.)*
+For the TopBrain model (trained by me), please cite:
+
+@misc{topbrain2025,
+  title   = {TopBrain: A Deep Learning Framework for Segmentation of Cerebral Venous Structures from CTA},
+  author  = {Your Name},
+  year    = {2025},
+  url     = {https://zenodo.org/records/16878417},
+  note    = {Trained for 1000 epochs with 5-fold cross-validation}
+}
+
+And for the veins model, cite:
+@article{ceballos2026,
+  title   = {Robust automatic brain vessel segmentation in 3D CTA scans using dynamic 4D-CTA data},
+  author  = {Alberto Mario Ceballos Arroyo, Shrikanth M. Yadav, Chu-Hsuan Lin, Jisoo Kim, Geoffrey S. Young, Huaizu Jiang, Lei Qin},
+  journal = {arXiv preprint arXiv:2602.00391v1},
+  year    = {2026},
+  url     = {https://arxiv.org/abs/2602.00391v1},
+  license = {CC BY 4.0}
+}
 
 ---
 
 ## License
 
 MIT License. See [LICENSE](LICENSE) for details.
+
 
 
