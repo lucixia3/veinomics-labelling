@@ -1,7 +1,5 @@
 # veinomics-label
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 **Automatic labeling of cerebral venous sinuses from CTA**
 
 ![Python 3.8+](https://img.shields.io/badge/python-3.8%2B-blue)
@@ -289,3 +287,4 @@ If you use veinomics-label in your research, please cite:
 
 MIT License. See [LICENSE](LICENSE) for details.
 >>>>>>> aee6980 (Restructure pipeline into veinomics package + VCM detection + updated README)
+
