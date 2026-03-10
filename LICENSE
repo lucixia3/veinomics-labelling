@@ -1,45 +1,41 @@
+
 Non-Commercial Research License
 
 Copyright (c) 2026 lucixia3
+
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this pipeline and associated documentation files (the "Pipeline"), to use,
-copy, modify, and distribute the Pipeline for **non-commercial research purposes only**. Commercial use, including but not limited to selling, licensing, or otherwise profiting from the Pipeline, is **strictly prohibited**.
+copy, modify, and distribute the Pipeline for non-commercial research purposes only.
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Pipeline.
+"Commercial use" is defined as any use intended for or directed toward commercial
+advantage or monetary compensation. This includes, but is not limited to: selling,
+licensing, sublicensing, or incorporating the Pipeline into a commercial product or
+service. The following uses are explicitly PERMITTED regardless of funding source:
+- Academic research at universities or research institutions
+- Research funded by public or private grants, provided results are not sold
+- Non-profit research and educational use
 
-THE PIPELINE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE PIPELINE OR THE USE OR OTHER DEALINGS IN THE PIPELINE.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Pipeline.
 
----
-
-### Additional Terms and Conditions:
-
-1. **Non-commercial Use**: The Pipeline is granted for **research purposes only**. Commercial use, including any form of profit-making or licensing, is prohibited.
-   
-2. **Modification and Distribution**: Users may modify and distribute the Pipeline, as long as the usage remains non-commercial.
-
-3. **Source Code Availability**: If the Pipeline is used on a network server, the modified source code must be made publicly available.
-
-4. **License**: The license is irrevocable under the stated conditions, and sublicensing or transferring the license is not allowed.
-
----
-
-### How to Apply These Terms to Your New Pipeline
-
-If you develop a new pipeline and wish it to be freely available under these terms, attach the following notices to the source files of the pipeline to indicate it is under this modified license:
-
-```text
-[Program Name]  
-Copyright (C) [Year] [Your Name]
-This pipeline is free software: you can redistribute it and/or modify it under the terms of the **Non-Commercial Research License**, as created by [Your Name], with the following terms:
-
-1. The pipeline may only be used for **non-commercial research purposes**. Commercial use, including but not limited to selling, licensing, or profiting from the pipeline, is **strictly prohibited**.
-   
-2. You may modify and distribute the pipeline as long as the use remains **non-commercial**.
-
-This pipeline is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the **Non-Commercial Research License** for more details.
-
-You should have received a copy of the **Non-Commercial Research License** along with this pipeline. If not, please contact the author or refer to [your contact link/website].
+THE PIPELINE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE PIPELINE OR THE USE OR OTHER DEALINGS IN
+THE PIPELINE.
 
 ---
 
-**Important**: This pipeline is restricted to non-commercial research use only. Commercial use is prohibited without obtaining an additional explicit license.
+Additional Terms and Conditions:
+
+1. Non-commercial Use: The Pipeline is granted for research purposes only.
+   Commercial use, as defined above, is strictly prohibited.
+
+2. Modification and Distribution: Users may modify and distribute the Pipeline,
+   as long as the usage remains non-commercial and this license is included in
+   all copies or substantial portions.
+
+3. License: This license is irrevocable for any party that complies with its
+   terms. Sublicensing or transferring the license to third parties is not allowed.
