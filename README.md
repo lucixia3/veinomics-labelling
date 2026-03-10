@@ -34,8 +34,6 @@
 
 ## Method
 
-Method
-
 The pipeline operates in four stages:
 
 **1. Dual nnU-Net inference.** 
@@ -159,6 +157,7 @@ And for the veins model, cite:
 ## License
 
 MIT License. See [LICENSE](LICENSE) for details.
+
 
 
 
