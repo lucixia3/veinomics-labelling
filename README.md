@@ -34,27 +34,28 @@
 
 ## Method
 
-The pipeline operates in four stages:
+Method
 
-**1. Dual nnU-Net inference.**
+The pipeline operates in four stages:
+**1. Dual nnU-Net inference.** 
 Two independent 3D full-resolution nnU-Net v2 models (ResEncUNetL architecture) are applied to the CTA volume:
 - *ArtVen*: binary artery/vein segmentation; the venous mask (label 2) seeds the fusion step.
-- *TopBrain*: multi-class segmentation of named venous sinuses (SSS, STS, VOG, ICV, transverse complex) in the superior cranial compartment.
+- *TopBrain*: multi-class segmentation of named venous sinuses (SSS, STS, VOG, ICV, RBVR) trained on data with 5-fold cross-validation for 1000 epochs per fold.
 
 **2. Label fusion and postprocessing.**
-TopBrain labels are dilated one voxel and used to assign nearby venous voxels from the ArtVen mask. Residual venous voxels are classified as *pending*. A cascade of connected-component rules resolves pending voxels by proximity and topology: small isolated islands are discarded, components touching ICV are absorbed as ICV, and components touching RBVR or VOG are absorbed as RBVR.
+TopBrain labels are dilated and used to assign nearby venous voxels from the ArtVen mask. Pending voxels are resolved using proximity-based rules, merging components into the correct structures (e.g., ICV, RBVR).
 
 **3. SSS geometry-based laterality.**
-The SSS point cloud is decomposed by PCA into its principal axis. The sinus is split at its median projection into two halves; each half yields a sagittal separation plane via SVD. The inferior endpoint of the SSS (Torcular Herophili) anchors a third plane separating transverse-sigmoid structures. Every pending venous voxel is classified by its position relative to these planes:
+The SSS point cloud is split into two halves based on its principal axis. Venous voxels are classified relative to separation planes:
 - Above the torcular Z-level → cortical vein (right/left by SSS half-plane).
 - Below the torcular Z-level → transverse-sigmoid (right/left by torcular plane).
 
-Multiple iterative correction passes resolve topological inconsistencies: components contacting the SSS body outside the torcular region are reclassified as cortical; fragments attached exclusively to the contralateral transverse sinus are relabeled; cortical components closer to the transverse sinus than to the SSS are demoted to transverse.
+Iterative correction resolves topological inconsistencies.
 
 **4. VCM detection.**
-For each cortical hemisphere, the cortical vein mask is skeletonized and a multi-source BFS identifies the geodesic distance of every skeleton node to the SSS. The degree-1 endpoint (skeleton tip) farthest from the SSS defines the VCM tip. The skeleton path from tip to SSS is traced, and a Voronoi partition assigns the volumetric cortical voxels to VCM vs. other cortical tributaries.
+The cortical vein mask is skeletonized, and a BFS identifies the geodesic distance to the SSS. The VCM tip is defined, and the path to the SSS is traced, partitioning cortical voxels into VCM and other tributaries.
 
-An interactive 3D HTML visualization is saved alongside each NIfTI output, displaying all labeled structures and the laterality separation planes.
+An interactive 3D HTML visualization is saved with each NIfTI output, displaying all labeled structures and the lateral separation planes.
 
 ---
 
@@ -157,6 +158,7 @@ And for the veins model, cite:
 ## License
 
 MIT License. See [LICENSE](LICENSE) for details.
+
 
 
 
