@@ -1,6 +1,6 @@
 # veinomics-labelling
 
-**Automatic labeling of cerebral venous sinuses from CTA**
+**Automatic labeling of cerebral venous system from CTA**
 
 ![Python 3.8+](https://img.shields.io/badge/python-3.8%2B-blue)
 ![License: MIT](https://img.shields.io/badge/license-MIT-green)
@@ -157,6 +157,7 @@ And for the veins model, cite:
 ## License
 
 MIT License. See [LICENSE](LICENSE) for details.
+
 
 
 
