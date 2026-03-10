@@ -37,6 +37,7 @@
 Method
 
 The pipeline operates in four stages:
+
 **1. Dual nnU-Net inference.** 
 Two independent 3D full-resolution nnU-Net v2 models (ResEncUNetL architecture) are applied to the CTA volume:
 - *ArtVen*: binary artery/vein segmentation; the venous mask (label 2) seeds the fusion step.
@@ -158,6 +159,7 @@ And for the veins model, cite:
 ## License
 
 MIT License. See [LICENSE](LICENSE) for details.
+
 
 
 
