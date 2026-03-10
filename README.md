@@ -10,7 +10,7 @@
 
 ## Overview
 
-**veinomics-label** is a fully automated pipeline for the semantic segmentation and laterality labeling of the cerebral venous system from CT angiography (CTA). The pipeline delineates major dural venous sinuses — including the superior sagittal sinus, transverse-sigmoid complex, internal cerebral veins, vein of Galen, straight sinus, and cortical veins — and assigns each structure a lateralized label using an anatomically grounded geometric model derived from the SSS centerline. It additionally identifies the dominant cortical bridging vein (vena cerebri media, VCM) on each hemisphere via skeleton-based geodesic tracing.
+**veinomics-labelling** is a fully automated pipeline for the semantic segmentation and laterality labeling of the cerebral venous system from CT angiography (CTA). The pipeline delineates major dural venous sinuses — including the superior sagittal sinus, transverse-sigmoid complex, internal cerebral veins, vein of Galen, straight sinus, and cortical veins — and assigns each structure a lateralized label using an anatomically grounded geometric model derived from the SSS centerline. It additionally identifies the dominant cortical bridging vein (vena cerebri media, VCM) on each hemisphere via skeleton-based geodesic tracing.
 
 ---
 
@@ -159,6 +159,7 @@ And for the veins model, cite:
 ## License
 
 MIT License. See [LICENSE](LICENSE) for details.
+
 
 
 
