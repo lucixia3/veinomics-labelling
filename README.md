@@ -129,9 +129,10 @@ If you use veinomics-label in your research, please cite the following works:
   journal = {},
   year    = {2025},
 }
-
+```
 For the TopBrain model (trained by me), please cite:
 
+```bibtex
 @misc{topbrain2025,
   title   = {TopBrain: A Deep Learning Framework for Segmentation of Cerebral Venous Structures from CTA},
   author  = {Your Name},
@@ -139,8 +140,9 @@ For the TopBrain model (trained by me), please cite:
   url     = {https://zenodo.org/records/16878417},
   note    = {Trained for 1000 epochs with 5-fold cross-validation}
 }
-
+```
 And for the veins model, cite:
+```bibtex
 @article{ceballos2026,
   title   = {Robust automatic brain vessel segmentation in 3D CTA scans using dynamic 4D-CTA data},
   author  = {Alberto Mario Ceballos Arroyo, Shrikanth M. Yadav, Chu-Hsuan Lin, Jisoo Kim, Geoffrey S. Young, Huaizu Jiang, Lei Qin},
@@ -149,12 +151,13 @@ And for the veins model, cite:
   url     = {https://arxiv.org/abs/2602.00391v1},
   license = {CC BY 4.0}
 }
-
+```
 ---
 
 ## License
 
 MIT License. See [LICENSE](LICENSE) for details.
+
 
 
 
