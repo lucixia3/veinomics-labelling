@@ -3,7 +3,6 @@
 **Automatic labeling of cerebral venous system from CTA**
 
 ![Python 3.8+](https://img.shields.io/badge/python-3.8%2B-blue)
-![License: MIT](https://img.shields.io/badge/license-MIT-green)
 ![nnU-Net v2](https://img.shields.io/badge/nnU--Net-v2-orange)
 
 ---
@@ -156,6 +155,7 @@ And for the veins model, cite:
 
 ## License
  See [LICENSE](LICENSE) for details.
+
 
 
 
